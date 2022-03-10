@@ -8,4 +8,5 @@ add_executable(0304
         #yeonsanja.cpp
         #12840.cpp
         #10804.cpp
-        1758.cpp)
+        #1758.cpp
+        1431.cpp)

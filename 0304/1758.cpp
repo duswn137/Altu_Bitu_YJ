@@ -18,7 +18,7 @@ int main(){
     }
     sort(arr.begin(), arr.end(), greater<int>());
     for (int i = 0; i < ppl; i++) {
-        if(arr[i]-i<=0)
+        if(arr[i]-i<0)
             break;
         sum+=(arr[i]-i);
     }
