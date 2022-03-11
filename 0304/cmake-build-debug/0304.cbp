@@ -80,9 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/yj/Documents/GitHub/Altu_Bitu_YJ/0304/1758.cpp">
-			<Option target="0304"/>
-		</Unit>
 		<Unit filename="/Users/yj/Documents/GitHub/Altu_Bitu_YJ/0304/1758sol.cpp">
 			<Option target="0304"/>
 		</Unit>
