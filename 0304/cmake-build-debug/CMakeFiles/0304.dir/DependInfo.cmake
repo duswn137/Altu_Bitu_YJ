@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/yj/Documents/GitHub/Altu_Bitu_YJ/0304/1026.cpp" "CMakeFiles/0304.dir/1026.cpp.o" "gcc" "CMakeFiles/0304.dir/1026.cpp.o.d"
+  "/Users/yj/Documents/GitHub/Altu_Bitu_YJ/0304/1758.cpp" "CMakeFiles/0304.dir/1758.cpp.o" "gcc" "CMakeFiles/0304.dir/1758.cpp.o.d"
+  "/Users/yj/Documents/GitHub/Altu_Bitu_YJ/0304/1758sol.cpp" "CMakeFiles/0304.dir/1758sol.cpp.o" "gcc" "CMakeFiles/0304.dir/1758sol.cpp.o.d"
   )
 
 # Targets to which this target links.

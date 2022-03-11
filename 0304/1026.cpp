@@ -3,7 +3,7 @@
 //
 
 #include <iostream>     //기본적으로 필요
-#include <vector>       //
+#include <vector>       //배열 사용하기위해서 필요
 #include <algorithm>    //sort 함수 사용하기 위해서 필요
 
 using namespace std;    //std 클래스 사용하겠다는 선언
