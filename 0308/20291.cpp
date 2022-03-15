@@ -31,10 +31,11 @@ int main() {
         if (name == v[i])
             count++;
         else if (name != v[i]) {
-            m[name] = count;
+
             name = v[i];
             count = 1;
         }
+        m[name]=count;
     }
 
     //출력
