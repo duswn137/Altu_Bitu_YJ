@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include <map>
+#include <unordered_map>
 
 using namespace std;
 
@@ -11,11 +11,12 @@ int main(){
     ios_base :: sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
+
     int t, n, m;
     cin>>t;
     for (int i = 0; i < t; i++) {
         cin>>n;
-        map<int, int> memo;
+        unordered_map<int, int> memo;
         for (int j = 0; j < n; j++) {
             int num;
             cin>> num;
@@ -26,9 +27,9 @@ int main(){
             int num;
             cin >> num;
             if(memo[num]==1)
-                cout<<"1"<<'\n';
+                cout<<"1\n";
             else
-                cout<<"0"<<'\n';
+                cout<<"0\n";
         }
     }
     return 0;

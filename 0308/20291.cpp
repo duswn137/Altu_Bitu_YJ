@@ -21,7 +21,7 @@ int main() {
 
     for (int i = 0; i < n; i++) {
         cin >> input;
-        v.push_back(input.substr(-(input.size() - input.find('.'))));
+        v.push_back(input.substr(( input.rfind('.')+1)));
     }
     sort(v.begin(), v.end());
 
@@ -42,5 +42,5 @@ int main() {
         cout << iter->first << " " << iter->second << '\n';
     }
 
-    return 0;
+
 }
