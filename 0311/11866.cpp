@@ -12,7 +12,7 @@ int main(){
     int N,K;
     queue<int> q;
     cin>>N>>K;
-    for (int i=1; i<N+1; i++)
+    for (int i=1; i<=N; i++)
         q.push(i);
 
     cout<<"<";
@@ -26,7 +26,6 @@ int main(){
         q.pop();
         if(!q.empty())
             cout<<",";
-
     }
     cout<<">";
 }
